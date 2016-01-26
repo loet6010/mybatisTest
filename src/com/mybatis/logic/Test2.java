@@ -24,6 +24,7 @@ public class Test2 {
 			UserMapperDao userMapperDao = sqlSession.getMapper(UserMapperDao.class);
 			User user = userMapperDao.selectUser(2);
 			
+			//输出查看字段
 			System.out.println(user.getName());
 			System.out.println(user.getAge());
 		} finally {
