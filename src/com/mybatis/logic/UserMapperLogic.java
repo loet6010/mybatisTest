@@ -13,7 +13,7 @@ import com.mybatis.util.SqlSessionBuild;
  * @intro  mybatis测试
  *
  */
-public class Test2 {
+public class UserMapperLogic {
 
 	public static void main(String[] args) {
 
